@@ -28,5 +28,5 @@ This project implements an end-to-end MLOps pipeline for California Housing pric
 ## Results Comparison
 | Metric | Original Sklearn Model | Quantized Model |
 |--------|------------------------|-----------------|
-| R² Score | [To be filled] | [To be filled] |
-| Model Size | [To be filled] KB | [To be filled] KB |
+| R² Score | 0.575788 | -0.179863 |
+| Model Size | 0.035 KB | 0.020 KB |
