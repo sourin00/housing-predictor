@@ -229,7 +229,7 @@ def main():
     print(f"{'Theoretical Compression':<25} {'':<20} {theoretical_compression:<20.2f}x")
     print("="*60)
 
-    print(f"\nFOR YOUR ASSIGNMENT PDF:")
+
     print("| Metric | Original Sklearn Model | Quantized Model |")
     print("|--------|------------------------|-----------------|")
     print(f"| R² Score | {original_r2:.6f} | {quant_r2:.6f} |")
@@ -244,7 +244,6 @@ def main():
         print(f"File compression: {file_compression:.2f}x")
     else:
         print(f"File overhead dominated (tiny model size)")
-        print(f"Use theoretical sizes for assignment table")
 
     # Save comparison results
     comparison_results = {
