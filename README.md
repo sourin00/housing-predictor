@@ -9,8 +9,8 @@ This project implements an end-to-end MLOps pipeline for California Housing pric
 - Manual model quantization
 
 ## Repository Links
-- GitHub: [Your GitHub Repository URL]
-- Docker Hub: [Your Docker Hub Repository URL]
+- GitHub: [https://github.com/sourin00/housing-predictor]
+- Docker Hub: [https://hub.docker.com/repository/docker/sourin00/housing-predictor/general]
 
 ## Branches
 - `main`: Initial setup and documentation
