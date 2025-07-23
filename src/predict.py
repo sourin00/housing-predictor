@@ -67,14 +67,14 @@ def main():
 
         # Verification criteria
         if r2 > 0.5:  # Reasonable R² threshold
-            print(f"\n✅ Container verification PASSED (R² = {r2:.4f})")
+            print(f"\nContainer verification PASSED (R² = {r2:.4f})")
             exit_code = 0
         else:
-            print(f"\n❌ Container verification FAILED (R² = {r2:.4f} < 0.5)")
+            print(f"\nContainer verification FAILED (R² = {r2:.4f} < 0.5)")
             exit_code = 1
 
     except Exception as e:
-        print(f"\n❌ Container verification FAILED with error: {str(e)}")
+        print(f"\nContainer verification FAILED with error: {str(e)}")
         exit_code = 1
 
     print("=== Verification Complete ===")
